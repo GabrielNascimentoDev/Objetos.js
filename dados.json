@@ -1,0 +1,26 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome" : "Calca Jeans",
+            "preco": 189.99
+        },
+        {
+            "id2": 2,
+            "nome": "Moletom",
+            "preco": 399.99
+        }
+    ],
+    "usuarios":[
+        {
+            "id": 45,
+            "nome": "Gabriel",
+            "email": "GABRIEL.J.A@GMAIL.COM"
+        },
+        {
+            "id": 519,
+            "nome": "Paulo Muzy",
+            "emai": "EuAmoARoberta@gmail.com"
+        }
+    ]
+}

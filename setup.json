@@ -1,0 +1,11 @@
+{
+    "Setup":
+    {
+        "mouse": 300,
+        "Teclado": 250,
+        "Headset": 200,
+        "MousePad":50,
+        "Monitor": 600,
+        "PC": 3000
+    }
+}

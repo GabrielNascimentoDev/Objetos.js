@@ -1,0 +1,22 @@
+{
+    "Animais":[ 
+    {
+        "id": 2931,
+        "nome": "Urso Polar",
+        "tipo": "Mamifero",
+        "Habitat": "Geleiras"       
+    },
+    {
+        "id": 9918,
+        "nome": "Rotweiler",
+        "tipo": "Mamifero",
+        "habitat": "Ambiente Domestico"
+    },
+    {
+        "id": 1,
+        "nome": "Dinossauro",
+        "tipo": "Ovipero",
+        "Habitat": "Era Dos Dinossauros"
+    }
+ ]
+}
