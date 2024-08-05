@@ -16,4 +16,3 @@ const telefoneEstudante = buscaInformacao(estudantes, "telefone", "7919437785")
 
 console.log(telefoneEstudante);
 
-
