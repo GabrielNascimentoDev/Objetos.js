@@ -5,3 +5,7 @@ const carroNovo = {
     cor: "vermelho"
 }
 
+const problemas = false 
+
+carroNovo.push(problemas)
+
