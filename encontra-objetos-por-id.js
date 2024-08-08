@@ -15,13 +15,22 @@ const departamentos = [
             { id: 202, nome: "João", cargo: "Analista de sistemas" }
         ]
     }
-]
+];
 
-function encontraObjetosPorId(id){
-    return departamentos.find(funcionario => funcionario.id === id);
+function encontrarFuncionarioPorId(id) {
+    for (const departamento of departamentos) {
+        const funcionarioEncontrado = departamento.funcionarios.find(funcionario => funcionario.id === id);
+        if (funcionarioEncontrado) {
+            return funcionarioEncontrado;
+        }
+    }
+    return null;
 }
 
-const encontraFuncionarios = encontraObjetosPorId(201)
+const funcionarioEncontrado1 = encontrarFuncionarioPorId(201);
+console.log("Funcionário encontrado (ID 201):");
+console.log(funcionarioEncontrado1);
 
-console.log("funcionario encontrado (ID 201):");
-console.log(encontraFuncionarios);
+const funcionarioEncontrado2 = encontrarFuncionarioPorId(103);
+console.log("\nFuncionário encontrado (ID 103):");
+console.log(funcionarioEncontrado2)
