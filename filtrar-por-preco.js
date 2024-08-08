@@ -10,6 +10,6 @@ function filtrarPorPreco(maxPreco) {
     return produtosFiltrados.sort((a, b) => a.preco - b.preco);
 }
 
-const produtosAte40 = filtrarPorPreco(40.00)
+const produtosAte40 = filtrarPorPreco(40.00);
 console.log("Produtos com preço até 50.00 (ordenados por preço crescente):");
-console.log(produtosAte40)
+console.log(produtosAte40);
