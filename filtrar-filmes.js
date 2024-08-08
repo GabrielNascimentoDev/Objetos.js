@@ -5,9 +5,9 @@ const catalogoFilmes = [
 ]
 
 function filtrarFilmesPorAno(ano){
-    return catalogoFilmes.filter(filme => filme.anoLancamento === ano)
+    return catalogoFilmes.filter(filme => filme.anoLancamento === ano);
 }
 
-const filmesEncontrados = filtrarFilmesPorAno(1999)
+const filmesEncontrados = filtrarFilmesPorAno(1999);
 
 console.log(filmesEncontrados);
