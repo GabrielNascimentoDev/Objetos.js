@@ -53,12 +53,9 @@ listaPessoas.push({ nome: "Ana", idade: 28, cidade: "Salvador" });
 // Chamada da função mostrarListaPessoas após a adição
 mostrarListaPessoas(listaPessoas);
 
-// Chamada da função filtrarPorCidade
 const pessoasSalvador = filtrarPorCidade(listaPessoas, "Salvador");
 console.log("Pessoas em Salvador:");
 console.log(pessoasSalvador);
-
-//CONTA BANCARIA
 
 const contaBancaria = {
     titular: "João",
